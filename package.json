@@ -1,17 +1,17 @@
 {
-  "name": "@uniswap/v2-sdk",
+  "name": "@miljan9602/dswap-v2-sdk",
   "license": "MIT",
   "version": "4.3.0",
-  "description": "🛠 An SDK for building applications on top of Uniswap V2",
+  "description": "🛠 An SDK for building applications on top of Dragonswap V1",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/Uniswap/uniswap-v2-sdk.git",
+  "repository": "https://github.com/Miljan9602/dswap-v2-sdk.git",
   "keywords": [
-    "uniswap",
-    "ethereum"
+    "dragonswap",
+    "sei"
   ],
   "module": "dist/v2-sdk.esm.js",
   "scripts": {
@@ -24,7 +24,8 @@
   "dependencies": {
     "@ethersproject/address": "^5.0.0",
     "@ethersproject/solidity": "^5.0.0",
-    "@uniswap/sdk-core": "^4.2.0",
+    "@miljan9602/dswap-sdk-core": "github:Miljan9602/dswap-sdk-core",
+    "lodash": "^4.17.21",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3"
   },
