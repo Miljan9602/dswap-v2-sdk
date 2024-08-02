@@ -135,7 +135,7 @@ function _wrapNativeSuper(t) {
 }
 
 // see https://stackoverflow.com/a/41102306
-var CAN_SET_PROTOTYPE = ('setPrototypeOf' in Object);
+var CAN_SET_PROTOTYPE = 'setPrototypeOf' in Object;
 /**
  * Indicates that the pair has insufficient reserves for a desired output amount. I.e. the amount of output cannot be
  * obtained by sending any amount of input.

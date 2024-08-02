@@ -24,7 +24,7 @@
   "dependencies": {
     "@ethersproject/address": "^5.0.0",
     "@ethersproject/solidity": "^5.0.0",
-    "@miljan9602/dswap-sdk-core": "github:Miljan9602/dswap-sdk-core",
+    "@miljan9602/dswap-sdk-core": "github:Miljan9602/dswap-sdk-core#staging-mainnet",
     "lodash": "^4.17.21",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3"
